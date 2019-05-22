@@ -1,0 +1,7 @@
+{
+  "name": "restaurant_app",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^4.3.1"
+  }
+}

@@ -1,0 +1,27 @@
+<h1>TOP Restaurants</h1>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Address</th>
+      <th>Description</th>
+      <th>Stars</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @restaurants.each do |restaurant| %>
+      <tr>
+        <td><%= restaurant.name %></td>
+        <td><%= restaurant.address %></td>
+        <td><%= restaurant.description %></td>
+        <td><%= restaurant.stars %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'All Restaurant', restaurants_path %>

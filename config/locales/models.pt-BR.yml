@@ -1,0 +1,11 @@
+pt-BR:
+  activerecord:
+    models:
+      restaurant: Restaurante
+    attributes:
+      restaurant:
+        name: Nome
+        address: Endereço
+        stars: Estrelas
+        chef: Cozinheiro
+        description: Descrição
